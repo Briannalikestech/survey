@@ -1,0 +1,46 @@
+<DOCTYPE html>
+    <html>
+    
+        <head>
+            <meta charset="utf-8">
+            <title>Survey Form</title>
+        </head>
+        <body background="yellow.jpg" width="100%">
+<h1 align="center">Survey Form</h1>
+
+
+<table width="45%" align="center">
+
+<tr>
+<td>Full Name:<td><input type="text"></td></tr>
+<tr><td>
+Email:<td><input type="text"></td></tr>
+<tr><td>
+Age:<td><input type="text"></td></tr>
+    <tr><td>
+        Gender<td><input type="radio">Male
+         <input type="radio">Female &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tr></td>
+         <tr><td>
+How satisfied are you with this experience?:<td><select id="Rating"
+    <option value="Poor">Poor</option>
+    <option value="Average">Average</option>
+    <option value="Good">Good</option>
+    <option value="Exceptional">Exceptional</option>
+         </td></tr>
+  <tr><td>  
+<label for="Message">What can we do to improve your experience?:<td></label>
+<textarea id="Message" name="message"></textarea>
+<input type="submit" value="Submit"</tr></td>
+<tr><td>
+Would you reccommend this this to someone else?:<td><input type="radio">Absolutely!
+<input type="radio">Definitely not
+</td></td>
+<tr><td>
+Are you going to purchase this again?<td><input type="radio">Yes <input type="radio">No
+</td></tr>
+
+
+
+
+
+       
